@@ -7,8 +7,7 @@ export default function App() {
   return (
     <>
       <GlobalStyle />
-      <h1>Start Project</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <PageWrapper stars={starList}>Контент страницы</PageWrapper>
     </>
   );
 }
