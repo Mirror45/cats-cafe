@@ -1,16 +1,16 @@
 import React from "react";
-import MainPage from "/src/components/pages/main-page";
-import { Main } from "./styled";
 import Header from "/src/components/layout/header/header";
 import Footer from "/src/components/layout/footer/footer";
+import BuyPage from "/src/components/pages/buy-page/buy-page";
+import { Main } from "./styled";
 
 // Обёртка для контента страниц
-function PageWrapper({ children, ...prop }) {
+function PageWrapper({ ...prop }) {
   return (
     <>
       <Header />
       <Main>
-        <MainPage {...prop} />
+        <BuyPage {...prop} />
       </Main>
       <Footer />
     </>
