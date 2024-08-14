@@ -4,7 +4,7 @@ import Gallery from "/src/components/ui/gallery/gallery";
 import { StyledSection, StyledTitle } from "./styled";
 
 function CafeGallery({ slides }) {
-  return slides?.length ? (
+  return slides && slides.length ? (
     <StyledSection>
       <StyledTitle level={2} size={TitleSize.BIG}>
         Галерея нашего кафе

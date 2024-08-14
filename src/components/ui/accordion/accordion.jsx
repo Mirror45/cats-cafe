@@ -3,11 +3,6 @@ import AccordionItem from "./accordionItem";
 import { Ul } from "/src/components/styled";
 import { StyledLi } from "./styled";
 
-import React, { useState } from "react";
-import AccordionItem from "./accordionItem";
-import { Ul } from "/src/components/styled";
-import { StyledLi } from "./styles";
-
 export function Accordion({
   titleComponent, // компонент для отрисовки заголовка
   textComponent, // компонент для отрисовки текста
