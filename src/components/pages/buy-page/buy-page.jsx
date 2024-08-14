@@ -1,10 +1,12 @@
 import React from "react";
-import CageGallery from "/src/components/blocks/cafe-gallery/cafe-gallery";
+import CafeGallery from "/src/components/blocks/cafe-gallery/cafe-gallery";
+import Buy from "/src/components/blocks/buy/buy";
 
-function BuyPage({ slides }) {
+function BuyPage({ slides, buyOptions }) {
   return (
     <>
-      <CageGallery slides={slides}/>
+      <CafeGallery slides={slides}/>
+      <Buy buyOptions={buyOptions} />
     </>
   );
 }
