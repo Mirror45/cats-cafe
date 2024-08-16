@@ -1,12 +1,19 @@
 import React from "react";
 import { ReactComponent as LogoImage } from "/src/assets/logo.svg";
-
-import { Text, StyledLogo } from "./styled";
+import { AppRoute } from "/src/const";
+import { Text, StyledLogo, StyledLogoMainPage } from "./styled";
+import { useLocation } from "react-router-dom";
 
 // Логотип сайта с названием
 function Logo() {
-  return (
-    <StyledLogo href="/">
+  const { pathname } = useLocation();
+  return pathname === AppRoute.MAIN ? (
+    <StyledLogoMainPage to={AppRoute.MAIN}>
+      <LogoImage />
+      <Text>Котокафе</Text>
+    </StyledLogoMainPage>
+  ) : (
+    <StyledLogo to={AppRoute.MAIN}>
       <LogoImage />
       <Text>Котокафе</Text>
     </StyledLogo>
