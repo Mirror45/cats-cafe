@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb459a83.css",
+    "main.js": "/static/js/main.818f5846.js",
+    "static/media/about.svg": "/static/media/about.087a933788aa65ea8d5d461567db4f76.svg",
+    "static/media/buy-right-background-top.svg": "/static/media/buy-right-background-top.01ea9c10d506272897ecbefe016908cf.svg",
+    "static/media/stars-left.svg": "/static/media/stars-left.08db9f8e6b833f4f494eb33db48f237f.svg",
+    "static/media/gallery-right.svg": "/static/media/gallery-right.62e71213e588b0c48be1ec8e3911e877.svg",
+    "static/media/logo.svg": "/static/media/logo.333133ad06d56c4400f5cf4e182fa87c.svg",
+    "static/media/gallery-left.svg": "/static/media/gallery-left.70f6de552378ba4047ecaf17bc4e8f36.svg",
+    "static/media/stars-right.svg": "/static/media/stars-right.ba68657892e76f0c4cba27b42efe1a06.svg",
+    "static/media/map-mark.svg": "/static/media/map-mark.85f3d0de9cb30bfefe1edaa8a0822d75.svg",
+    "index.html": "/index.html",
+    "static/media/buy-background.svg": "/static/media/buy-background.df481f360e9f3f6387aa2deeb8964b48.svg",
+    "static/media/gallery-background.svg": "/static/media/gallery-background.09c45c874e8c9615464b8cf4ab6dc8d2.svg",
+    "static/media/buy-right-background.svg": "/static/media/buy-right-background.a1e9b8586d7e6ae632859c000ed90e78.svg",
+    "static/media/stars-image.svg": "/static/media/stars-image.cccc9d9ea982f0c6fba15199300e624b.svg",
+    "static/media/left-arrow.svg": "/static/media/left-arrow.29633b16d9b24711175fa06ea938f8e9.svg",
+    "main.fb459a83.css.map": "/static/css/main.fb459a83.css.map",
+    "main.818f5846.js.map": "/static/js/main.818f5846.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb459a83.css",
+    "static/js/main.818f5846.js"
+  ]
+}
