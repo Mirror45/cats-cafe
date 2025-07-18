@@ -41,7 +41,7 @@ During development, the following challenges were solved:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cats-cafe.git
+git clone https://github.com/Mirror45/cats-cafe.git
 
 # Navigate into the cloned project directory
 cd cats-cafe
