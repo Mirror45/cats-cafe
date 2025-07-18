@@ -9,7 +9,7 @@ const buttons = [
     to: AppRoute.MAIN,
     button: (
       <StyledButton minWidth={260} key={AppRoute.MAIN} link={AppRoute.MAIN}>
-        Главная
+        Home
       </StyledButton>
     )
   },
@@ -17,7 +17,7 @@ const buttons = [
     to: AppRoute.BUY,
     button: (
       <Button minWidth={260} key={AppRoute.BUY} link={AppRoute.BUY}>
-        Купить билет
+        Buy Ticket
       </Button>
     )
   }

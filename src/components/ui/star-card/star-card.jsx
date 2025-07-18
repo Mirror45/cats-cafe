@@ -3,15 +3,15 @@ import Title, { TitleSize, TitleLevel } from "/src/components/ui/title/title";
 import { Text, Figure, Image, StyledStarCard, StyledStarIcon } from "./styled";
 
 function StarCard({
-  name, // имя кота
-  about, // информация о коте
-  feature, // особенность (ласковый, новенький и т.д.) CatFeature
-  image // url c фото кота
+  name,    // cat's name
+  about,   // information about the cat
+  feature, // feature (affectionate, new, etc.) CatFeature
+  image    // URL with cat's photo
 }) {
   return (
     <StyledStarCard>
       <Figure>
-        <Image src={image} width={313} height={320} alt="изображение кота" />
+        <Image src={image} width={313} height={320} alt="Cat image" />
         <StyledStarIcon feature={feature} />
       </Figure>
       <Title level={TitleLevel.H3} size={TitleSize.SMALL}>

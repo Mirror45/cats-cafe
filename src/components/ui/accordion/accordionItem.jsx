@@ -2,13 +2,13 @@ import React, { useState, useEffect, useRef } from "react";
 import { Button, Arrow, ContentWrapper, TitleWrapper, Wrapper } from "./styled";
 
 function AccordionItem({
-  titleComponent, // компонент который нужно использовать для отрисовки заголовка
-  title, // содержимое заголовка
-  text, // содержимое текста
-  open, // открыт ли элемент
-  textComponent, // компонент который нужно использовать для отрисовки текста
-  onClick, // клик по кнопке раскрытия аккордеона
-  isHtml // является ли текст html разметкой
+  titleComponent, // component to be used for rendering the title
+  title, // title content
+  text, // text content
+  open, // whether the item is open
+  textComponent, // component to be used for rendering the text
+  onClick, // click handler for accordion toggle button
+  isHtml // whether the text is HTML markup
 }) {
   const [height, setHeight] = useState(0);
   const TitleComponent = titleComponent;
@@ -26,7 +26,7 @@ function AccordionItem({
         <Button
           type="button"
           onClick={onClick}
-          title={`${open ? "Скрыть" : "Раскрыть"} описание`}
+          title={`${open ? "Hide" : "Show"} description`}
         >
           <Arrow open={open} />
         </Button>

@@ -7,7 +7,7 @@ function CafeGallery({ slides }) {
   return slides && slides.length ? (
     <StyledSection>
       <StyledTitle level={2} size={TitleSize.BIG}>
-        Галерея нашего кафе
+        Our Café Gallery
       </StyledTitle>
       <Gallery slides={slides} />
     </StyledSection>

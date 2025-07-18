@@ -51,6 +51,7 @@ export const WorkTime = styled(Paragraph)`
   min-width: 292px;
   margin-bottom: ${(props) => props.theme.indent};
   padding: 8px;
+  padding-left: 16px;
   border-radius: 8px;
   background-color: ${(props) => props.theme.colorForDarkBackground};
   vertical-align: middle;

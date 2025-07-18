@@ -9,7 +9,7 @@ function StarsList({ stars, level }) {
     <StyledStarsList>
       {stars?.length ? (
         <>
-          <Title level={level}>Наши звёзды</Title>
+          <Title level={level}>Our Stars</Title>
           <StarList $isGridList>
             {stars.map((star) => (
               <StarItem key={star.id}>
@@ -20,7 +20,7 @@ function StarsList({ stars, level }) {
         </>
       ) : null}
       <Button minWidth={353} link="/buy">
-        Купить билет
+        Buy Ticket
       </Button>
     </StyledStarsList>
   );

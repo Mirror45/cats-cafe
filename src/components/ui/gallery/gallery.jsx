@@ -18,7 +18,7 @@ import {
 SwiperCore.use([Navigation, Thumbs]);
 
 function Gallery({
-  slides = [] // список слайдов. Каждый слайд — это src картинки и alt
+  slides = []
 }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [activeSlide, setActiveSlide] = useState(0);

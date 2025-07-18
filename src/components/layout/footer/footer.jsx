@@ -6,7 +6,7 @@ function Footer() {
   return (
     <StyledSection as="footer">
       <Logo />
-      <Copyright>Создано 2021</Copyright>
+      <Copyright>Created in 2021</Copyright>
     </StyledSection>
   );
 }

@@ -16,12 +16,11 @@ export const TitleLevel = {
   H6: "6"
 };
 
-// Заголовок
 function Title({
-  level = 1, // уровень h1, h2 и другие. TitleLevel
-  size, // размер заголовка TitleSize
-  children, // дочерний элемент, который будет отображён в заголовке
-  className
+  level = 1, // heading level (h1, h2, etc.). TitleLevel
+  size,      // title size. TitleSize
+  children,  // child element to be displayed inside the title
+  className  // CSS class name
 }) {
   return (
     <StyledTitle as={`h${level}`} $size={size} className={className}>
