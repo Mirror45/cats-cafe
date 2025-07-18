@@ -1,25 +1,25 @@
 const starList = [
   {
     id: 0,
-    name: "Кот Лаки",
+    name: "Lucky the Cat",
     about:
-      "Крайне спокойный, ласковый малыш, который медленно, но&nbsp;уверенно перестаёт быть робким скромнягой.",
+      "Extremely calm and affectionate little one who is slowly but surely overcoming shyness.",
     image: "https://i.ibb.co/Cmgp1tP/Rectangle-4.png",
     feature: "new"
   },
   {
     id: 1,
-    name: "Кот Базилио",
+    name: "Basilio the Cat",
     about:
-      "Прошлые хозяева отказались от&nbsp;него, и&nbsp;долгое время ему пришлось быть на&nbsp;передержке, привыкая к&nbsp;новой жизни.",
-    image: 'https://i.ibb.co/pWkHFrj/Rectangle-4-1.png" alt="Rectangle-4-1',
+      "Previous owners gave him up, and he spent a long time in foster care, adjusting to his new life.",
+    image: 'https://i.ibb.co/pWkHFrj/Rectangle-4-1.png',
     feature: "empty"
   },
   {
     id: 3,
-    name: "Кошка Сью",
+    name: "Sue the Cat",
     about:
-      "Эта юная красавица очень общительная и&nbsp;ласковая уже с&nbsp;первого дня, как приехала в&nbsp;кафе.",
+      "This young beauty is very sociable and affectionate from the very first day she arrived at the cafe.",
     image: "https://i.ibb.co/27Mdx7k/Rectangle-4-2.png",
     feature: "soft"
   }

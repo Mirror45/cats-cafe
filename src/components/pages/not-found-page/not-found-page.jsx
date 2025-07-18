@@ -8,7 +8,7 @@ function NotFoundPage() {
     <StyledSection>
       <StyledWrapper>
         <StyleTitle level={1} size={TitleSize.BIG}>404 Page not found</StyleTitle>
-        <Link to={AppRoute.MAIN}>Вернуться на главную</Link>
+        <Link to={AppRoute.MAIN}>Return to Home</Link>
       </StyledWrapper>
     </StyledSection>
   );

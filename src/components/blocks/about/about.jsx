@@ -2,21 +2,18 @@ import React from "react";
 import Title, { TitleSize } from "/src/components/ui/title/title";
 import { Address, Text, StyledSection, WorkTime, TextWrapper } from "./styled";
 
-// Раздел о котокафе
 function About({ level }) {
   return (
     <StyledSection>
       <TextWrapper>
         <Title level={level} size={TitleSize.BIG}>
-          Первое в России котокафе
+          The First Cat Café in Central Europe
         </Title>
         <Text>
-          Крупнейшее котокафе России, в котором живёт 50 кошек и котов, и каждый
-          из них ищет новый дом. Животных можно гладить, фотографировать, играть
-          с ними.
+          The largest cat café in Central Europe, home to 50 cats, each looking for a new family. You can pet them, take photos, and play with them.
         </Text>
-        <WorkTime>Рабочее время с 8:00 до 23:00</WorkTime>
-        <Address>Санкт-Петербург, Большая Конюшенная улица, 27</Address>
+        <WorkTime>Open daily from 8:00 to 23:00</WorkTime>
+        <Address>Vienna, Mariahilfer Straße 27</Address>
       </TextWrapper>
     </StyledSection>
   );

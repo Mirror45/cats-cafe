@@ -4,10 +4,10 @@ import { Ul } from "/src/components/styled";
 import { StyledLi } from "./styled";
 
 export function Accordion({
-  titleComponent, // компонент для отрисовки заголовка
-  textComponent, // компонент для отрисовки текста
-  content, // массив, содержащий контент аккордеона
-  isHtml // есть ли HTML в тексте
+  titleComponent, // component for rendering the title
+  textComponent, // component for rendering the text
+  content, // array containing the accordion content
+  isHtml // whether the text contains HTML
 }) {
   const [openItemIndex, setOpenItemIndex] = useState(null);
 

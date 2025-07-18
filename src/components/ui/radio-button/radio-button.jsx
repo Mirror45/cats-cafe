@@ -7,12 +7,12 @@ const Label = styled.label`
 `;
 
 function RadioButton({
-  labelComponent, // компонент для отображения label
-  selectValue, // выбранное значение
-  name, // имя
-  value, // значение
-  text, // текст элемента
-  onChange, // событие при изменении
+  labelComponent, // component for displaying the label
+  selectValue,    // selected value
+  name,           // name
+  value,          // value
+  text,           // element text
+  onChange,       // change event handler
   ...props
 }) {
   const LabelComponent = labelComponent;

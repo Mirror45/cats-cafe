@@ -21,7 +21,7 @@ import {
   const type = ticketOptions.find((option) => option.id === selectType);
   const price = duration * (type ? type.price : 0);
 
-  // преобразуем ticketOptions в данные для акардеона
+  // convert ticketOptions into data for the accordion
   const accordionContent = canBuy && ticketOptions.map((option) => ({
     id: option.id,
     title: (
@@ -40,22 +40,22 @@ import {
 
   const handleBuy = () => {
     alert(
-      `Спасибо за покупку.
-              Вы приобрели билет класса: ${type.title}.
-              Продолжительность посещения(часов): ${duration}.
-              Цена билета: ${price} руб.`
+      `Thank you for your purchase.
+              You have purchased a ticket of class: ${type.title}.
+              Visit duration (hours): ${duration}.
+              Ticket price: ${price} $.`
     );
   };
 
   return (
     <StyledSection>
       <StyleTitle level={1} size={TitleSize.BIG}>
-        Купить билет
+        Buy Ticket
       </StyleTitle>
       {canBuy ? (
         <Form $width={540}>
           <FormItem>
-            <Label $margin={12}>Продолжительность (часов)</Label>
+            <Label $margin={12}>Duration (hours)</Label>
             <Ul $isGridList $indent={12} $align="left">
               {durationOptions.map((option) => (
                 <Li key={option}>
@@ -73,7 +73,7 @@ import {
             </Ul>
           </FormItem>
           <FormItem $bottom={22}>
-            <Label $margin={12}>Тип билета</Label>
+            <Label $margin={12}>Ticket Type</Label>
             <Accordion
               textComponent={AccordionText}
               content={accordionContent}
@@ -81,15 +81,15 @@ import {
             />
           </FormItem>
           <Label $small $margin={6}>
-            Цена
+            Price
           </Label>
-          <Price>{price} руб.</Price>
+          <Price>{price} $</Price>
           <Button minWidth={460} onClick={handleBuy}>
-            Купить билет
+            Buy Ticket
           </Button>
         </Form>
       ) : (
-        <p>Покупка билетов временно недоступна</p>
+        <p>Ticket purchasing is temporarily unavailable</p>
       )}
     </StyledSection>
   );

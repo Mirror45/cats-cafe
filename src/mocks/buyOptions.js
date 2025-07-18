@@ -3,25 +3,26 @@ const buyOptions = {
   ticketOptions: [
     {
       id: 0,
-      title: "Стандартный",
-      description: `Вы сможете:
+      title: "Standard",
+      description: `You will be able to:
         <ul>
-            <li>Поиграть со всеми пушистиками.</li>
-            <li>Заказать вкусности для себя и пушистых хвостиков.</li>
+            <li>Play with all the fluffy friends.</li>
+            <li>Order treats for yourself and the furry tails.</li>
         </ul>`,
       price: 1000
     },
     {
       id: 1,
       title: "VIP",
-      description: `Билеты класса VIP предоставляют все возможности стандартных билетов, а также:
+      description: `VIP tickets provide all the benefits of the standard tickets, plus:
         <ul>
-            <li>Экскурсия с рассказом о жителях котокафе.</li>
-            <li>Бесплатные лакомства для котиков.</li>
+            <li>A guided tour with stories about the cafe’s residents.</li>
+            <li>Free treats for the cats.</li>
         </ul>`,
       price: 1500
     }
   ]
 };
+
 
 export default buyOptions;

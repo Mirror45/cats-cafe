@@ -18,7 +18,7 @@ function StarIcon({ className = "", feature }) {
       break;
     case CatFeature.SOFT:
       options = {
-        text: "Ласковый",
+        text: "Affectionate",
         bgColor: "#7fc92e"
       };
       break;

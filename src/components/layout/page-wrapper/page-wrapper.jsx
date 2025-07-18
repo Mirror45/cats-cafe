@@ -4,7 +4,6 @@ import Footer from "/src/components/layout/footer/footer";
 import { Main } from "./styled";
 import { Outlet } from "react-router-dom";
 
-// Обёртка для контента страниц
 function PageWrapper() {
   return (
     <>
